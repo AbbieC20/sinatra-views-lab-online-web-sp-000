@@ -6,7 +6,7 @@
 
     <body>
       <h1>Today</h1>
-      <% d = Date::DAYNAMES[Date.today.wday] %>
-      <p><%= "The date is " + "#{d}" %></p>
+      <% day = Date::DAYNAMES[Date.today.wday] %>
+      <p><%= "The date is " + "#{day}" + ", " +  %></p>
     </body>
 </html>
