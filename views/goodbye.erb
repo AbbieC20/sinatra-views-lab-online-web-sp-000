@@ -6,6 +6,8 @@
 
     <body>
         <% name = "Joe" %>
-        <h1>Goodbye ${name}</h1>
+        <% name.each do |post| %>
+          <h1>Goodbye post</h1>
+        <% end %>
     </body>
 </html>
